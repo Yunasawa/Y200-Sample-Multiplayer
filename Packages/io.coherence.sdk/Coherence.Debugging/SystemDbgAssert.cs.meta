@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f5199ac28e05440f857a3a5effc09763
+timeCreated: 1701339049
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Debugging/SystemDbgAssert.cs
+  uploadId: 779709

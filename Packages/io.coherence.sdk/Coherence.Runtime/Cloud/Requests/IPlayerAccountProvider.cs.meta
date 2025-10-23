@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 4cfc7770cae54e6b9e11470eadb1671f
+timeCreated: 1741276119
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Runtime/Cloud/Requests/IPlayerAccountProvider.cs
+  uploadId: 779709

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2191b6f902c97477baa32a7919010503
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence/VersionInfo.asset
+  uploadId: 779709

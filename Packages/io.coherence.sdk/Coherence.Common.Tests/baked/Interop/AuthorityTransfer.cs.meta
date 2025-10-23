@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 95d97c8aba6d703c6a850da3816d2b5f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common.Tests/baked/Interop/AuthorityTransfer.cs
+  uploadId: 779709

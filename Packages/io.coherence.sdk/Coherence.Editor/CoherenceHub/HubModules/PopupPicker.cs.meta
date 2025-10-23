@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: dc7c1c5b173c43daa02b8bc5414f3e99
+timeCreated: 1726479341
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/CoherenceHub/HubModules/PopupPicker.cs
+  uploadId: 779709

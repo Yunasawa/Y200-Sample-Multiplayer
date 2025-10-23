@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4ce91ff7270ce4746a499d6f0feb5134
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Brook/Octet/IOutOctetStream.cs
+  uploadId: 779709

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 247b4f1baba8b2195beac387e7e4faaf
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Entity/Coherence.Entities.asmdef
+  uploadId: 779709

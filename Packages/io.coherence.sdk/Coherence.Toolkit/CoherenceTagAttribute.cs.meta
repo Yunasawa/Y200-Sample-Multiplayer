@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1f8f1bf68d0f3d144a3f68cc4727041c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/CoherenceTagAttribute.cs
+  uploadId: 779709

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8fbe0f289693a7d4c8fa26cf3821c5a0
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Transport/Coherence.Transport.asmdef
+  uploadId: 779709

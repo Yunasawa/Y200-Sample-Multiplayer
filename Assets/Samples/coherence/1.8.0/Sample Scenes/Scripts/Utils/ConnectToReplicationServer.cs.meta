@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7ff9c46290a47d3469fb31d4b7b830b3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Scripts/Utils/ConnectToReplicationServer.cs
+  uploadId: 779709

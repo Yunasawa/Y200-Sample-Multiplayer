@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 7493390978a14c838e33a9bd5db76ee8
+timeCreated: 1739456211
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence/JsonConverters/UnityColor32Converter.cs
+  uploadId: 779709

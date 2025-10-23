@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 84dd1ce1a29d6e64babc3f5a6e79d93e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Runtime/Cloud/GameServices/CloudStorage/StorageObjectMutation.cs
+  uploadId: 779709

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 68d469278aa33f94c8a6d8b8cdee11c3
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Stats/Coherence.Stats.asmdef
+  uploadId: 779709

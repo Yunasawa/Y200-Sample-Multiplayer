@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: feef987af9ba4654a306903f9ef36088
+timeCreated: 1638287060
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/OnValueChangedAttribute.cs
+  uploadId: 779709

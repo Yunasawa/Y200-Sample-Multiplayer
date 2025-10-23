@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: cc9f08e597fb448ea5464788a25b1079
+timeCreated: 1732709735
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Runtime.Tests/FakeCloudStorageBuilder.cs
+  uploadId: 779709

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ee9ac08c480700e4ea014c4135e8754f
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Brisk.Tests/Coherence.Brisk.Tests.asmdef
+  uploadId: 779709

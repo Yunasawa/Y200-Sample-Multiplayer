@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a5968c6d05f9436189d91437940cad11
+timeCreated: 1741865217
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Runtime.Tests/FakePlayerAccountBuilder.cs
+  uploadId: 779709

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: cb8f2f563edb49a6b45c860f1c25d2bf
+timeCreated: 1737624411
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/CoherenceHub/HubModules/SimulatorBuildBlocker.cs
+  uploadId: 779709

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 8e8f8b2d76cb4e47aa0ea5467d8a9993
+timeCreated: 1740396974
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/CoherenceSyncConfigPickerAttribute.cs
+  uploadId: 779709

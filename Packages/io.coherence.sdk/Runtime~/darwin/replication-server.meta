@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f5a031b2105e7bb4aa15e2240a14a4f6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Runtime~/darwin/replication-server
+  uploadId: 779709

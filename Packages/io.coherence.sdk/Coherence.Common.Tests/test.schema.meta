@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: bf57268f5fc4245d284ee970d25f3ff3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: d3927e33a49bb43ddb9760267e57a460, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common.Tests/test.schema
+  uploadId: 779709

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 096dc279ce034d2aabbd68abdcdd5863
+timeCreated: 1739455062
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence/JsonConverters/UnityVector2Converter.cs
+  uploadId: 779709

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 832dd13e5a46458a9b0080e2844c57a9
+timeCreated: 1653385764
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/Bindings/ValueBindings/Vector3Binding.cs
+  uploadId: 779709

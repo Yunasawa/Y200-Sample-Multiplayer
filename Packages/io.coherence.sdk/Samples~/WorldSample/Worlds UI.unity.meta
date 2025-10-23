@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ecea610f3f114764ab944eca4dd9038b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/WorldSample/Worlds UI.unity
+  uploadId: 779709

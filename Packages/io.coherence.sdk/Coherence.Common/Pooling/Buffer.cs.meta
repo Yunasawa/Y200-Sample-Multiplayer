@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 716a64fca76c4f3abbd0e22f7243d029
+timeCreated: 1730378844
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common/Pooling/Buffer.cs
+  uploadId: 779709

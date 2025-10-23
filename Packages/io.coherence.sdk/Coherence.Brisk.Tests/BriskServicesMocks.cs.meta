@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 2269504bc1544ed283aff0894b3b222a
+timeCreated: 1667402490
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Brisk.Tests/BriskServicesMocks.cs
+  uploadId: 779709

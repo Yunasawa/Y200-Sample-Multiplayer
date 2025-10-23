@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2410a0b33c5b40a4fb5b42e311b8715e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Prefabs/Physics/PhysicsEnvironment.prefab
+  uploadId: 779709

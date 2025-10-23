@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f1ae2490893c4d48b6a68d19b6becca8
+timeCreated: 1726572116
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Runtime/Cloud/GameServices/IAuthClientInternal.cs
+  uploadId: 779709

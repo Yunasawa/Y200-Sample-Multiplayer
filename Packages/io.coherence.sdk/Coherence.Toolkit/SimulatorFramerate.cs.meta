@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 3fd2292e391a4adb85d2e73fffa5bf5e
+timeCreated: 1619443126
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/SimulatorFramerate.cs
+  uploadId: 779709

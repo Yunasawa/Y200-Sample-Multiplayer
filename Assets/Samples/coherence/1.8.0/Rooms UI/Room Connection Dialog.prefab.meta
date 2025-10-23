@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6899ff7d40b580c49b15d0c4dff6a5b4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/RoomSample/Room Connection Dialog.prefab
+  uploadId: 779709

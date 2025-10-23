@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 88c36ada20204aaea16c2bda87547c99
+timeCreated: 1738069898
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Plugins/NativeUtils/ThreadResumerSettings.cs
+  uploadId: 779709

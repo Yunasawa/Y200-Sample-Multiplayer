@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 0bcb9f6c81494e9bb2f36340b2eef24d
+timeCreated: 1652200333
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Interpolation.Tests/DelayTests.cs
+  uploadId: 779709

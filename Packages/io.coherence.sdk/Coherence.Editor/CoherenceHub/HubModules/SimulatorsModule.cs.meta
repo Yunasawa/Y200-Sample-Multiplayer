@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4dcbe920e70ecc64eb0f0f8f7a5b3d31
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/CoherenceHub/HubModules/SimulatorsModule.cs
+  uploadId: 779709

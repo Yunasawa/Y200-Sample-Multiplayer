@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f0a9d7e4cb4e42d8aee798985662937b
+timeCreated: 1684222488
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Transport/TcpTransportLoop.cs
+  uploadId: 779709

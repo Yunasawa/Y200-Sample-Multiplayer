@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 1a24f81edbd841af8af1ca57aebf89e0
+timeCreated: 1649418160
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Interpolation/Interpolator.cs
+  uploadId: 779709

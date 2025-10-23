@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 0511a520ac194c47b486a25856012626
+timeCreated: 1660846966
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/Bindings/ValueBindings/ColorBinding.cs
+  uploadId: 779709

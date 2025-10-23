@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b4d16ade383b1db4c96a0cd7cafbf570
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/BindingsWindow/TreeViewItems/BindingsTreeViewComponentItem.cs
+  uploadId: 779709

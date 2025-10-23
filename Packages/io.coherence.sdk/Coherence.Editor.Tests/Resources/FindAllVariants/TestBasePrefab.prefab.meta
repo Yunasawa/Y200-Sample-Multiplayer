@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 49d5db59a1e97344583506af81f42d4d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor.Tests/Resources/FindAllVariants/TestBasePrefab.prefab
+  uploadId: 779709

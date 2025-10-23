@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 08afd0b67d074c948491655f04e15207
+timeCreated: 1695308587
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/MatchmakingSample/UI/Scripts/RegionsInput.cs
+  uploadId: 779709

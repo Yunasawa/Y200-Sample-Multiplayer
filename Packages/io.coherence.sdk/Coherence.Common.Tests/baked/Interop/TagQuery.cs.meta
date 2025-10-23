@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5e5a5fe34eec7f6f8b98030fda6299dc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common.Tests/baked/Interop/TagQuery.cs
+  uploadId: 779709

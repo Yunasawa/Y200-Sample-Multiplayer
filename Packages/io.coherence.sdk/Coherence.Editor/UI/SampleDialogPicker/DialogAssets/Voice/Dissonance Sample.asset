@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39df2693899937a4494ba9dd2592dbf8, type: 3}
+  m_Name: Dissonance Sample
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  Name: Dissonance
+  SampleDisplayName: Dissonance Integration
+  PreviousSampleDisplayNames: []
+  AssetHighlightPath: Assets/Dissonance/Integrations/Coherence
+  OpenAssetPath: Assets/Dissonance/Integrations/Coherence/Demo/Demo.unity
+  Category: Voice
+  Description: 
+  Thumbnail: {fileID: 2800000, guid: fc945dff1aa4d6f4b9cd9adf3e83911e, type: 3}
+  Links:
+  - Name: Asset Store
+    Url: https://assetstore.unity.com/packages/tools/audio/dissonance-voice-chat-70078
+  - Name: Documentation
+    Url: docs://Voice
+  MainLink: 0
+  PreInstallMessage: 'Importing sample: Dissonance coherence integration.
+
+    Dissonance
+    package must be installed first.
+
+
+    Checkout the Documentation link on the
+    Hub for further details.'
+  Priority: 30

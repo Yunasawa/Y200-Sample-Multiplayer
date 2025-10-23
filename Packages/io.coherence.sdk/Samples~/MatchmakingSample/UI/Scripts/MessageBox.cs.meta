@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ad6ff7adfa8354c4393295c4496c20dd
+timeCreated: 1694122112
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/MatchmakingSample/UI/Scripts/MessageBox.cs
+  uploadId: 779709

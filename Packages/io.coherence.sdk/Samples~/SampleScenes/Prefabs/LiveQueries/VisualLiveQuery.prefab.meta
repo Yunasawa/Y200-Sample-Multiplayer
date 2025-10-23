@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 700b0e7ad5798874ea075ba52443b152
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Prefabs/LiveQueries/VisualLiveQuery.prefab
+  uploadId: 779709

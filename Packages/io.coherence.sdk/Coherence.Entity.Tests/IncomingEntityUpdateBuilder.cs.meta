@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 360ba865d6f84d4f98f3bc56928374c0
+timeCreated: 1692266085
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Entity.Tests/IncomingEntityUpdateBuilder.cs
+  uploadId: 779709

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 210e98bd78ef0f64199a7c12912041a6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.JWT/Serializers/IJsonSerializerFactory.cs
+  uploadId: 779709

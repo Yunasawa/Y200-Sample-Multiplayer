@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7dbf020f9a4e1494e92fbedc8b809202
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.JWT/JWT.LICENSE
+  uploadId: 779709

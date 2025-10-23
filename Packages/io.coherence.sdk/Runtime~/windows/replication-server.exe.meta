@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b90b18cab44a32342a0affb4f1e35f24
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Runtime~/windows/replication-server.exe
+  uploadId: 779709

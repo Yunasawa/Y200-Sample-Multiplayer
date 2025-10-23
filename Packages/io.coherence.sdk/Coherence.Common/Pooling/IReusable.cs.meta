@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 1a39118e8b994e6ba336e5425e8ffed9
+timeCreated: 1731927223
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common/Pooling/IReusable.cs
+  uploadId: 779709

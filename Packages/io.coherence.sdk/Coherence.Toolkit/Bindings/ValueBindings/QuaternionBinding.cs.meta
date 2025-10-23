@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: eef1565ca40f4bb6942449cb8e07d643
+timeCreated: 1653386358
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/Bindings/ValueBindings/QuaternionBinding.cs
+  uploadId: 779709

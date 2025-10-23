@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 44e835c997e961c45bbd8b9ac1d5d9fb
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/7_PlayerSpawner.unity
+  uploadId: 779709

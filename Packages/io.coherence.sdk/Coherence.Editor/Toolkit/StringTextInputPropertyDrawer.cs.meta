@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f5ceabd7782547d3a5a303c477cc91e7
+timeCreated: 1749624569
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/Toolkit/StringTextInputPropertyDrawer.cs
+  uploadId: 779709

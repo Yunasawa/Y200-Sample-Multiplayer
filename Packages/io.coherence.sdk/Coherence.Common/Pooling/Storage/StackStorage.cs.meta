@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 8f7749d6dff44cfc9ce0105ebda892b3
+timeCreated: 1732195047
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common/Pooling/Storage/StackStorage.cs
+  uploadId: 779709

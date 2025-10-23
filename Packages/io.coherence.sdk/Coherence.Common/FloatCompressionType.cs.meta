@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 110f77d0a0014cfd8017b7cc2801b640
+timeCreated: 1653036755
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common/FloatCompressionType.cs
+  uploadId: 779709

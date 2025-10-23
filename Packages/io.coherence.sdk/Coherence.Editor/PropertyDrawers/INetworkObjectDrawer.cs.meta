@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 74073202b2810f948b5f58f9fe02f54f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/PropertyDrawers/INetworkObjectDrawer.cs
+  uploadId: 779709

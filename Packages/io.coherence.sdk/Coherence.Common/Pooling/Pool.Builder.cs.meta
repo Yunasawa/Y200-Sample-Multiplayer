@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 78e2ac06d5d6423b9d8d45a711c4f935
+timeCreated: 1732196590
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common/Pooling/Pool.Builder.cs
+  uploadId: 779709

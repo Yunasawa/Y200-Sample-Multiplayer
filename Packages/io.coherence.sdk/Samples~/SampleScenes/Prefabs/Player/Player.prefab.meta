@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5adef152083604ef289a125a77765def
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Prefabs/Player/Player.prefab
+  uploadId: 779709

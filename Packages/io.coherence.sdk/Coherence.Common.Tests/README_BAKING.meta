@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 33503233f82464512acfecb5e23c2457
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common.Tests/README_BAKING
+  uploadId: 779709

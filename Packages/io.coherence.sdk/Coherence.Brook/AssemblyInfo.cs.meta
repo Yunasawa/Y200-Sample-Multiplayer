@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: c8d20b3b98584bbab0c546fc67891f56
+timeCreated: 1652950712
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Brook/AssemblyInfo.cs
+  uploadId: 779709

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 93e24bc5c881bbe4da15fe7a64f52135
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/CoherenceSyncConfigs/ObjectInstantiators/CoherenceSyncInstantiator.cs
+  uploadId: 779709

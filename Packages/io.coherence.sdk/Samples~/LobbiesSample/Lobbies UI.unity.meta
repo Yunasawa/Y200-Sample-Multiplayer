@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0d6e464adbcde0045921b3ecd6e0d8d1
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/LobbiesSample/Lobbies UI.unity
+  uploadId: 779709

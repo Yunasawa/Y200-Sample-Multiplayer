@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: cb9923c3fc734990b2fcc0c59fb6fa98
+timeCreated: 1657723293
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Simulator/AutoSimulatorConnection.cs
+  uploadId: 779709

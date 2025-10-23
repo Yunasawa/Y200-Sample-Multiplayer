@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d6e8479c4c9b44c4f9bd509717c0c2aa
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Prefabs/UI/LegendPanel.prefab
+  uploadId: 779709

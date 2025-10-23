@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 21de8db6a6274bbab63acd64656357ba
+timeCreated: 1694114675
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/MatchmakingSample/UI/Scripts/CommonUI.cs
+  uploadId: 779709

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e59ebf4c3c7b74ab5886dcc744fc5682
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Simulator/Coherence.Simulator.asmdef
+  uploadId: 779709

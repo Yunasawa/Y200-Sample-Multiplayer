@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 346c2b370f032cf4ba1594624f8fce11
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/UI/SampleDialogPicker/DialogAssets/Projects/Campfire
+    Sample.asset
+  uploadId: 779709

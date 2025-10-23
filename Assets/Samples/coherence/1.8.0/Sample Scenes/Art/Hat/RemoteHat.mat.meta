@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 85fb610d1f0a1461088a39de40d70e49
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Art/Hat/RemoteHat.mat
+  uploadId: 779709

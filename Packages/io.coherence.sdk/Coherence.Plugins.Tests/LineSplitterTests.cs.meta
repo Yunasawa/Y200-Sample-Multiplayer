@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: af5f762b35ce4b8abb7a29c0e0058496
+timeCreated: 1729755941
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Plugins.Tests/LineSplitterTests.cs
+  uploadId: 779709

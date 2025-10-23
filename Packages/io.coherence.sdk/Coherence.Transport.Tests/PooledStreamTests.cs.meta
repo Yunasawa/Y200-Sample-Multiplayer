@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: eecf2328b26846b18431185192dee2c6
+timeCreated: 1739356197
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Transport.Tests/PooledStreamTests.cs
+  uploadId: 779709

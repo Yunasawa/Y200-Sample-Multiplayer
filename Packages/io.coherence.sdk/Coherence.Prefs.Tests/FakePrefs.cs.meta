@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 182c5ffe2f9c4139befd377bc4513382
+timeCreated: 1748513738
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Prefs.Tests/FakePrefs.cs
+  uploadId: 779709

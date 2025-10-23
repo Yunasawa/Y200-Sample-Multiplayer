@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 91ec537a3761342c2932596dca247550
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.UI/Fonts/Roboto/LICENSE.txt
+  uploadId: 779709

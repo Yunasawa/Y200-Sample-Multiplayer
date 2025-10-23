@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 397706c5d21254c4685ac1d6e3342171
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/CoherenceSyncConfigs/Analyzers/InvalidBindingsAnalyzer.cs
+  uploadId: 779709

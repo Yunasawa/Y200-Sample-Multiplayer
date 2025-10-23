@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a243f24ad9ed1e14bb3ad1a6369c2785
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.CodeGen/Scriban/Templates/schema_input.sbncs
+  uploadId: 779709

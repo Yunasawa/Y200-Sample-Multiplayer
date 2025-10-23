@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1ff378d0193b26f4c81e807d129bc218
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.CodeGen/Scriban/ScribanOptions.cs
+  uploadId: 779709

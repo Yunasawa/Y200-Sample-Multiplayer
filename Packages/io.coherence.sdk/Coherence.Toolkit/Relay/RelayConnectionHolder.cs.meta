@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 8b7a99c262234d34aea46d5e1f0947d8
+timeCreated: 1683632453
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/Relay/RelayConnectionHolder.cs
+  uploadId: 779709

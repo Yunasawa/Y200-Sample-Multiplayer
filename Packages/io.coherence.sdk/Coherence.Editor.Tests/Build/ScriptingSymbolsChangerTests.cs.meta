@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f21eb8b8d71b4370bf3f4386a73ffdc1
+timeCreated: 1728048303
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor.Tests/Build/ScriptingSymbolsChangerTests.cs
+  uploadId: 779709

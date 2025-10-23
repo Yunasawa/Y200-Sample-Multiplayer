@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 092e7d1235144595b630f0a57042fa69
+timeCreated: 1752483067
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/Portal/ProjectSelectDialog.cs
+  uploadId: 779709

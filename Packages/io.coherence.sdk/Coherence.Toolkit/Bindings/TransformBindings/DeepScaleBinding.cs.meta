@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: a0fbc866bde2483c8ecfadf5acf0b729
+timeCreated: 1654019575
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/Bindings/TransformBindings/DeepScaleBinding.cs
+  uploadId: 779709

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8735e114a29269d4ba1f60e47f3d4020
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Core.Tests/Coherence.Core.Tests.asmdef
+  uploadId: 779709

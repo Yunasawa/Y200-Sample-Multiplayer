@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 72b6dd2885f47cb489833eed4010c286
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.JWT/Algorithms/RS2048Algorithm.cs
+  uploadId: 779709

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 0684fc796ffe4ea688459e6d87c3e566
+timeCreated: 1654018790
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/Bindings/TransformBindings/DeepPositionBinding.cs
+  uploadId: 779709

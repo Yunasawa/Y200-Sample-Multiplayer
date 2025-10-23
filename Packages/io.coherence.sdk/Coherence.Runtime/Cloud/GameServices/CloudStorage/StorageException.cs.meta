@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 5097ea6febe84d85884d12764677b728
+timeCreated: 1730797961
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Runtime/Cloud/GameServices/CloudStorage/StorageException.cs
+  uploadId: 779709

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 8e7873e81ed443b394f4b20c6087c5ac
+timeCreated: 1696345448
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common/PredictionMode.cs
+  uploadId: 779709

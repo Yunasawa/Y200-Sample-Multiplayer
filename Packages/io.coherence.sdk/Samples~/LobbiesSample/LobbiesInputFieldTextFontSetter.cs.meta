@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b9af35410cce04542ab1de7a5137d3a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/LobbiesSample/LobbiesInputFieldTextFontSetter.cs
+  uploadId: 779709

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 78b925fb1aa744719dc93977f8d76a00
+timeCreated: 1653322272
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/Bindings/ValueBindings/FloatBinding.cs
+  uploadId: 779709

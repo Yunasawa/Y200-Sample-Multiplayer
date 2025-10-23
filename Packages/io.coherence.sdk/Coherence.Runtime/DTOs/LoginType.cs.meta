@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: bae4a0bd94c04a6e941a3541c9e7c60a
+timeCreated: 1741187547
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Runtime/DTOs/LoginType.cs
+  uploadId: 779709

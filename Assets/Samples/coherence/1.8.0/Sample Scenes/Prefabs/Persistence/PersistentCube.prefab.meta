@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 550faae1caaad4c47993c90b73a5e45f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Prefabs/Persistence/PersistentCube.prefab
+  uploadId: 779709

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: cf93e25e7abb47be8ecfd3aa835d2838
+timeCreated: 1746521456
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/Portal/ConditionalProject.cs
+  uploadId: 779709

@@ -1,0 +1,24 @@
+{
+    "name": "Coherence",
+    "rootNamespace": "",
+    "references": [
+        "Coherence.Core",
+        "Coherence.Common",
+        "Coherence.ProtocolDef",
+        "Coherence.Log",
+        "Coherence.Utils",
+        "Coherence.Plugins",
+        "Coherence.SimulationFrame"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

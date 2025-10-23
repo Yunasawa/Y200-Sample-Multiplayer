@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f2597833b99e4e448f18b4cb9a10b669
+timeCreated: 1729521804
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Plugins/NativeLauncher/AsyncReader.cs
+  uploadId: 779709

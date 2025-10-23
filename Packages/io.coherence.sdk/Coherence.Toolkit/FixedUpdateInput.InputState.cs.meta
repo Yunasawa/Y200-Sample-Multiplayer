@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 47d27797e6d0452faedf5b40e7e9f7e9
+timeCreated: 1642680388
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/FixedUpdateInput.InputState.cs
+  uploadId: 779709

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39df2693899937a4494ba9dd2592dbf8, type: 3}
+  m_Name: Rooms Sample
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  Name: Rooms
+  SampleDisplayName: Rooms UI
+  PreviousSampleDisplayNames:
+  - Connect Dialog_ Rooms
+  AssetHighlightPath: Rooms UI.unity
+  OpenAssetPath: Rooms UI.unity
+  Category: UIs
+  Description: 'A Canvas UI that can be used to browse, create and join Rooms hosted
+    in the coherence Cloud or in locally hosted Replication Servers.
+
+
+    When you
+    click Import, the Sample will be imported to your project.'
+  Thumbnail: {fileID: 2800000, guid: a8dbcc80125a04ee3b355ddae1ad5eaa, type: 3}
+  Links:
+  - Name: Documentation
+    Url: docs://RoomsUI
+  MainLink: 0
+  PreInstallMessage: 
+  Priority: 10

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f9c127db11af33d4ab5485e921169a95
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence/CustomProvider.cs.template
+  uploadId: 779709

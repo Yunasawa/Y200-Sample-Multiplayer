@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d97e95c66c17943a3b0078e258fd693d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Prefabs/UI/EntityAuthorityButton.prefab
+  uploadId: 779709

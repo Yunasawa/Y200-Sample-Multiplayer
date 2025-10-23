@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: c13d84a7a77d4f92baf5243e837c7329
+timeCreated: 1666010205
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit.Tests/AnimatorParameterBindingTests.cs
+  uploadId: 779709

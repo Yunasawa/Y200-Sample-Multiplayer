@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dc55b971d39c3b740959bcfd089c6fe3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Prefabs/Persistence/PersistentTagCube.prefab
+  uploadId: 779709

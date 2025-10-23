@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5f6fb19a64f47084eb2973eae45def0d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/MatchmakingSample/Chat.prefab
+  uploadId: 779709

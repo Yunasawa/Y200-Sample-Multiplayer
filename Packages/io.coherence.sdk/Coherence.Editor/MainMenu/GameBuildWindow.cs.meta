@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f8d5a3e82a4244c897991a08237d5427
+timeCreated: 1621900781
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Editor/MainMenu/GameBuildWindow.cs
+  uploadId: 779709

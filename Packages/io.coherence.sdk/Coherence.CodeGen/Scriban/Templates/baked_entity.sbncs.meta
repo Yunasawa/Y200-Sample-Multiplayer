@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5cab5d47011134b4982f36028a35cf04
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.CodeGen/Scriban/Templates/baked_entity.sbncs
+  uploadId: 779709

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 29a2e76382cb4d92aaebef65b3a5d12e
+timeCreated: 1732194207
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common/Pooling/Modules/ActionsModule.cs
+  uploadId: 779709

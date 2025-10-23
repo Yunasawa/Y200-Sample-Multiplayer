@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9812da9e6882405a8580c17da63ede54
+timeCreated: 1737723308
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Runtime.Tests/StorageObjectValueTests.cs
+  uploadId: 779709

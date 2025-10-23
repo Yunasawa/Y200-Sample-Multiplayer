@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 2f6613c72a574b62a60df5f1b92a3ebf
+timeCreated: 1636115303
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Runtime/Web/WebSocketInterop.cs
+  uploadId: 779709

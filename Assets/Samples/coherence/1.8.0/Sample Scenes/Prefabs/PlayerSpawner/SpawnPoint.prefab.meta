@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 25fd6c176bc9c4d04ba2c9b95bd4788a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Prefabs/PlayerSpawner/SpawnPoint.prefab
+  uploadId: 779709

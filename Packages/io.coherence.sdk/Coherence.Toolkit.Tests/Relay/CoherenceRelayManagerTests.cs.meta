@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 2d74ac45f5a04172b3e990c4a8b5ecfa
+timeCreated: 1739468092
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit.Tests/Relay/CoherenceRelayManagerTests.cs
+  uploadId: 779709

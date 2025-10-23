@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 93b780a73ac9491098d819ce1de2453e
+timeCreated: 1731496591
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Common/Pooling/PooledList.cs
+  uploadId: 779709

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ed3d3edbf797047ebae1ebb67c2d6b2e
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/CHANGELOG.md
+  uploadId: 779709

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 62e353cb798949138f545ca7aa3155ab
+timeCreated: 1652204310
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Interpolation/LatencySettings.cs
+  uploadId: 779709

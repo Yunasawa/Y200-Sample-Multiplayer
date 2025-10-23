@@ -1,0 +1,275 @@
+:root {
+    background-color: var(--unity-colors-window-background);
+    height: 100%;
+    flex-direction: column;
+    --border-color: var(--unity-colors-default-border);
+    --icon-installed: resource("Icons/PackageManager/Dark/Installed.png");
+    --icon-import-available: url("project://database/Packages/io.coherence.sdk/Coherence.Editor/UIAssets/IconDownload.png");
+    --icon-update-available: url("project://database/Packages/io.coherence.sdk/Coherence.Editor/UIAssets/IconDownload.png");
+    --icon-link: url("project://database/Packages/io.coherence.sdk/Coherence.Editor/UIAssets/IconLink.png");
+}
+
+.unity-visual-splitter {
+    flex-basis: 0;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.sample-dialog-picker__header {
+    flex-direction: row;
+    background-color: var(--unity-colors-toolbar-background);
+    padding: 8px 16px;
+    flex-shrink: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--border-color);
+}
+
+.sample-picker-element-selected {
+    border-color: var(--unity-colors-object_field-border-focus);
+}
+
+.grid-view-header-search-field {
+    width: 150px;
+    min-width: 60px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 0;
+    align-self: center;
+}
+
+.grid-view-header-label {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.grid-view-category-border {
+    border-width: 1px;
+    color: var(--tag-color);
+    border-color: var(--tag-color);
+    background-color: var(--unity-colors-input_field-background);
+    font-size: 12px;
+    padding: 4px;
+}
+
+.grid-view-preview-title-category-container {
+    flex-direction: row;
+    flex-grow: 0;
+    align-items: center;
+    padding: 5px;
+}
+
+.grid-view-items-scrollview {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-left: 8px;
+}
+
+.grid-view-items {
+    margin-top: 5px;
+    flex-grow: 1;
+}
+
+.grid-view-items-container-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid-view-item-element {
+    padding: 8px;
+}
+
+.grid-view-items-container-grid .grid-view-item-element {
+    flex-direction: column;
+}
+
+.grid-view-items-container-grid {
+    flex-grow: 1;
+}
+
+.grid-view-item-icon {
+    background-color: var(--unity-colors-preview-background);
+    -unity-background-scale-mode: scale-to-fit;
+    justify-content: center;
+}
+
+.grid-view-items-container-grid .grid-view-item-icon {
+    flex-grow: 1;
+    border-width: 1px;
+}
+
+.grid-view-item-element:hover > .grid-view-item-icon {
+    border-color: var(--unity-colors-input_field-border-hover);
+}
+
+.grid-view-items-container-grid .selected > .grid-view-item-icon {
+    border-color: var(--unity-colors-object_field-border-focus);
+}
+
+.grid-view-item-label {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.grid-view-items-container-grid .grid-view-item-label {
+    margin-top: 4px;
+    align-self: center;
+    align-items: center;
+    border-width: 1px;
+    border-radius: var(--unity-metrics-default-border_radius);
+}
+
+.grid-view-item-element:hover > .grid-view-item-label {
+    background-color: var(--unity-colors-highlight-background-inactive);
+}
+
+.grid-view-items-container-grid .selected > .grid-view-item-label {
+    color: #FFFFFF;
+    background-color: var(--unity-colors-highlight-background);
+}
+
+.sample-picker-dialog-templates-container {
+    flex-basis: auto;
+    min-width: 90px;
+    height: 100%;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--border-color);
+}
+
+.sample-picker-dialog-description-container {
+    --tag-color: #00876A;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 300px;
+    max-width: 600px;
+    border-left-width: 1px;
+    border-left-color: var(--border-color);
+    border-bottom-width: 1px;
+    border-bottom-color: var(--border-color);
+}
+
+.sample-picker-dialog-description-container--dark {
+    --tag-color: #69E39F;
+}
+
+.grid-view-footer {
+    flex-shrink: 0;
+    height: var(--unity-metrics-inspector_titlebar-height);
+    flex-direction: row-reverse;
+    border-top-color: var(--border-color);
+    border-top-width: 1px;
+}
+
+.grid-view-footer-tile-size {
+    width: 75px;
+}
+
+.sample-picker-gridview-help-box {
+    margin: 25px;
+}
+
+.sample-picker-dialog-footer {
+    height: 50px;
+    flex-direction: row;
+    background-color: var(--unity-colors-toolbar-background);
+}
+
+.sample-picker-dialog-buttons {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row-reverse;
+    margin: 8px 6px;
+}
+
+.sample-picker-dialog-buttons-left {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+    align-content: flex-start;
+    margin: 8px 6px;
+}
+
+.sample-picker-dialog-button {
+    height: 24px;
+    padding: 2px 6px 3px 6px;
+    -unity-text-align: middle-center;
+}
+
+.sample-picker-dialog-button-left {
+    height: 24px;
+    padding: 2px 6px 3px 6px;
+    -unity-text-align: middle-center;
+    flex-shrink: 1;
+}
+
+.sample-picker-preview-area {
+    background-color: var(--unity-colors-default-background);
+    -unity-background-scale-mode: scale-to-fit;
+    justify-content: center;
+    height: 60%;
+}
+
+
+.sample-picker-preview-title {
+    white-space: normal;
+    -unity-font-style: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.sample-picker-preview-text {
+    padding: 10px;
+    white-space: normal;
+}
+
+.tab-view {
+    height: 25px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.item-icon {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.item-link {
+    background-image: var(--icon-link);
+    right: 4px;
+    bottom: 4px;
+    width: 12px;
+    height: 12px;
+}
+
+.stamp {
+    position: absolute;
+    right: -4px;
+    padding: 2px 6px;
+    top: 6px;
+    font-size: 12px;
+    -unity-font-style: bold;
+    background-color: red;
+    color: white;
+    border-width: 1px;
+    border-color: var(--border-color);
+}
+
+.stamp-valid {
+    background-color: green;
+}
+
+.stamp-link {
+    background-color: steelblue;
+}
+
+.stamp-package {
+    background-color: chocolate;
+}
+
+.button-main {
+    -unity-font-style: bold;
+}

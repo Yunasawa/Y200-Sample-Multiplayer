@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3103ce63cfa9d6240a57f4aa0e653025
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/RoomSample/Rooms UI.unity
+  uploadId: 779709

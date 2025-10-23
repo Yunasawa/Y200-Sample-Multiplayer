@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39df2693899937a4494ba9dd2592dbf8, type: 3}
+  m_Name: Steam Sample
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  Name: Steam
+  SampleDisplayName: 
+  PreviousSampleDisplayNames: []
+  AssetHighlightPath: 
+  OpenAssetPath: 
+  Category: Relays
+  Description: 'This sample demonstrates how to route network traffic through Steam
+    using Facepunch.Steamworks.
+
+
+    The provided relay implementation allows for
+    users to connect through Steam, and have clients forward their network data to
+    the Replication Server on the client that acts as the host.'
+  Thumbnail: {fileID: 2800000, guid: 391447746cf324a4eb5920964589ce62, type: 3}
+  Links:
+  - Name: Documentation
+    Url: docs://SteamRelay
+  - Name: Repository
+    Url: https://github.com/coherence/steam-integration-sample
+  MainLink: 0
+  PreInstallMessage: 
+  Priority: 20

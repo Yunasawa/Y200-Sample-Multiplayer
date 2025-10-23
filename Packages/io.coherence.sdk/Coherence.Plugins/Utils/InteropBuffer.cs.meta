@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5cee855ed2dc43a4927e50c55a37a687
+timeCreated: 1729546031
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Plugins/Utils/InteropBuffer.cs
+  uploadId: 779709

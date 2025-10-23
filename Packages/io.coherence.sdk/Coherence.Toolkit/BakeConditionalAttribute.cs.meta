@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: efb531a1929744edabdd87ea8e26938c
+timeCreated: 1741184698
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/BakeConditionalAttribute.cs
+  uploadId: 779709

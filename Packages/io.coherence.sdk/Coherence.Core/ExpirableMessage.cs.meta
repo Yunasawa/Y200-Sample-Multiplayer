@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 28799c9ade27448994f12a290dba28fa
+timeCreated: 1723558655
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Core/ExpirableMessage.cs
+  uploadId: 779709

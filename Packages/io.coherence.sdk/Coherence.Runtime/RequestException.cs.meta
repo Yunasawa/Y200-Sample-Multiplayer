@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: a6eaa28da7164f0196b44131e5a07bc7
+timeCreated: 1638276773
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Runtime/RequestException.cs
+  uploadId: 779709

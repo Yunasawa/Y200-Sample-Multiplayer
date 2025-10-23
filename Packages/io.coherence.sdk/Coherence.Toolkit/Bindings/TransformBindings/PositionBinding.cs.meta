@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: b5fd408b5860455da550386c8f784996
+timeCreated: 1652955435
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Toolkit/Bindings/TransformBindings/PositionBinding.cs
+  uploadId: 779709

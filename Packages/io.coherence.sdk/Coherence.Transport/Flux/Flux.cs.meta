@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: ed1ef1c85d834759a836d5533787d8c0
+timeCreated: 1618937703
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Transport/Flux/Flux.cs
+  uploadId: 779709

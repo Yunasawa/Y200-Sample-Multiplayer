@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8627d4b3df91e4fbe8261b600233c704
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Samples~/SampleScenes/Art/Materials/RemotePlayer.mat
+  uploadId: 779709

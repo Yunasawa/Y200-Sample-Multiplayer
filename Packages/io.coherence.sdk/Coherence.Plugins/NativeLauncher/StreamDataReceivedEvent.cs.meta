@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 21b4077d1c8349e08d6b2709f9afce09
+timeCreated: 1729588270
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301977
+  packageName: "coherence \u2013 Multiplayer Networking"
+  packageVersion: 1.8.0
+  assetPath: Packages/io.coherence.sdk/Coherence.Plugins/NativeLauncher/StreamDataReceivedEvent.cs
+  uploadId: 779709
