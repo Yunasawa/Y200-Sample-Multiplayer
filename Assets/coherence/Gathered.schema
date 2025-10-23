@@ -1,13 +1,17 @@
-component _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067 [id "18"]
-  text String [bits "6"]
-
-component _b6b91167bdda7fd42ac20fbdb992aeca_5409921327994379146 [id "19"]
-  rootPosition Vector3 [compression "None"]
-  rootRotation Quaternion [bits "32"]
+component _b6b91167bdda7fd42ac20fbdb992aeca_2164096153098260643 [id "18"]
   ToRun Bool [bits "1"]
 
-component _b6b91167bdda7fd42ac20fbdb992aeca_5982182900696927448 [id "20"]
+component _b6b91167bdda7fd42ac20fbdb992aeca_4561164196374390466 [id "19"]
   CharacterType UInt8 [bits "8"]
+
+component _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067 [id "20"]
+  text String [bits "6"]
+
+component _b6b91167bdda7fd42ac20fbdb992aeca_5597853690678057385 [id "21"]
+  ToRun Bool [bits "1"]
+
+component _b6b91167bdda7fd42ac20fbdb992aeca_6249753844118996474 [id "22"]
+  ToRun Bool [bits "1"]
 
 command _714b9f8fd47e343158014373676f77d0_97320cdaa6f641c98d6f57d68520c0e5 [id "6", routing "All"]
   spawnPosition Vector3 [compression "None"]

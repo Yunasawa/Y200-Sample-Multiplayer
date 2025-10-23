@@ -632,6 +632,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5448409671102306495, guid: d6e8479c4c9b44c4f9bd509717c0c2aa, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7606759
+      objectReference: {fileID: 0}
+    - target: {fileID: 5448409671102306495, guid: d6e8479c4c9b44c4f9bd509717c0c2aa, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5448409672373227134, guid: d6e8479c4c9b44c4f9bd509717c0c2aa, type: 3}
       propertyPath: m_Pivot.x
       value: 1

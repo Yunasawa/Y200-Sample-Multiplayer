@@ -9,5 +9,6 @@ namespace Y200.ProjectMultiplayer
         public static Action<Guid> OnWorldDisconnected { get; set; }
 
         public static Action<Guid, byte> OnCharacterSelected { get; set; }
+        public static Action<Guid> OnClientJoined { get; set; }
     }
 }

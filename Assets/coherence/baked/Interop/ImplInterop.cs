@@ -42,9 +42,11 @@ namespace Coherence.Generated
                 case 15: return Scene.FromInterop(data, dataSize, simFrames, simFramesCount);
                 case 16: return AssetId.FromInterop(data, dataSize, simFrames, simFramesCount);
                 case 17: return GenericScale.FromInterop(data, dataSize, simFrames, simFramesCount);
-                case 18: return _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067.FromInterop(data, dataSize, simFrames, simFramesCount);
-                case 19: return _b6b91167bdda7fd42ac20fbdb992aeca_5409921327994379146.FromInterop(data, dataSize, simFrames, simFramesCount);
-                case 20: return _b6b91167bdda7fd42ac20fbdb992aeca_5982182900696927448.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 18: return _b6b91167bdda7fd42ac20fbdb992aeca_2164096153098260643.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 19: return _b6b91167bdda7fd42ac20fbdb992aeca_4561164196374390466.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 20: return _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 21: return _b6b91167bdda7fd42ac20fbdb992aeca_5597853690678057385.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 22: return _b6b91167bdda7fd42ac20fbdb992aeca_6249753844118996474.FromInterop(data, dataSize, simFrames, simFramesCount);
             }
 
             throw new ArgumentException($"Unkown component type {type}", nameof(type));
@@ -260,6 +262,28 @@ namespace Coherence.Generated
                 }
                 case 18:
                 {
+                    var orig = (_b6b91167bdda7fd42ac20fbdb992aeca_2164096153098260643)component;
+                    var val = new _b6b91167bdda7fd42ac20fbdb992aeca_2164096153098260643.Interop();
+
+                    val.ToRun = orig.ToRun ? (System.Byte)1 : (System.Byte)0;
+
+                    updater.UpdateComponent(entity, componentType, val, 1, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 19:
+                {
+                    var orig = (_b6b91167bdda7fd42ac20fbdb992aeca_4561164196374390466)component;
+                    var val = new _b6b91167bdda7fd42ac20fbdb992aeca_4561164196374390466.Interop();
+
+                    val.CharacterType = orig.CharacterType;
+
+                    updater.UpdateComponent(entity, componentType, val, 1, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 20:
+                {
                     var orig = (_b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067)component;
                     var val = new _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067.Interop();
 
@@ -269,25 +293,23 @@ namespace Coherence.Generated
 
 }                    return;
                 }
-                case 19:
+                case 21:
                 {
-                    var orig = (_b6b91167bdda7fd42ac20fbdb992aeca_5409921327994379146)component;
-                    var val = new _b6b91167bdda7fd42ac20fbdb992aeca_5409921327994379146.Interop();
+                    var orig = (_b6b91167bdda7fd42ac20fbdb992aeca_5597853690678057385)component;
+                    var val = new _b6b91167bdda7fd42ac20fbdb992aeca_5597853690678057385.Interop();
 
-                    val.rootPosition = orig.rootPosition;
-                    val.rootRotation = orig.rootRotation;
                     val.ToRun = orig.ToRun ? (System.Byte)1 : (System.Byte)0;
 
-                    updater.UpdateComponent(entity, componentType, val, 29, component.FieldsMask, component.StoppedMask, frames);
+                    updater.UpdateComponent(entity, componentType, val, 1, component.FieldsMask, component.StoppedMask, frames);
 
                     return;
                 }
-                case 20:
+                case 22:
                 {
-                    var orig = (_b6b91167bdda7fd42ac20fbdb992aeca_5982182900696927448)component;
-                    var val = new _b6b91167bdda7fd42ac20fbdb992aeca_5982182900696927448.Interop();
+                    var orig = (_b6b91167bdda7fd42ac20fbdb992aeca_6249753844118996474)component;
+                    var val = new _b6b91167bdda7fd42ac20fbdb992aeca_6249753844118996474.Interop();
 
-                    val.CharacterType = orig.CharacterType;
+                    val.ToRun = orig.ToRun ? (System.Byte)1 : (System.Byte)0;
 
                     updater.UpdateComponent(entity, componentType, val, 1, component.FieldsMask, component.StoppedMask, frames);
 

@@ -13,7 +13,7 @@ namespace Y200.ProjectMultiplayer
 
         private Transform _playerTransform;
         private CharacterController _controller;
-        [SerializeField] private Animator _animator;
+        [SerializeField] private PlayerSkinManager _skinManager;
 
         [Header("Movement Values")]
         [SerializeField] private bool _enableRotating = true;
@@ -93,7 +93,9 @@ namespace Y200.ProjectMultiplayer
 
         public void UpdateAnimation(bool isRunning)
         {
-            _animator.SetBool("ToRun", isRunning);// ? "Run" : "Idle");
+            if (_skinManager.Animator == null) return;
+
+            _skinManager.Animator.SetBool("ToRun", isRunning);
         }
 
         public void PlayerRotationEntry(float degree, float speed)

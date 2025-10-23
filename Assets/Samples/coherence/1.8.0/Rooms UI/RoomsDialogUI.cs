@@ -157,6 +157,11 @@ namespace Coherence.Samples.RoomsDialog
             bridge.onDisconnected.AddListener(OnBridgeDisconnected);
             bridge.onConnectionError.AddListener(OnConnectionError);
             localToggleRefresher = StartCoroutine(LocalToggleRefresher());
+
+            bridge.onNetworkEntityCreated.AddListener((a, b) =>
+            {
+                GlobalEvent.OnClientJoined?.Invoke(_playerSkin.SkinID);
+            });
         }
 
         private async void Start()

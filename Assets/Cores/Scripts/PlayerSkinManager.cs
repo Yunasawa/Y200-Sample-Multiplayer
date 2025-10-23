@@ -1,4 +1,4 @@
-using Coherence.Toolkit;
+﻿using Coherence.Toolkit;
 using System;
 using UnityEngine;
 
@@ -7,51 +7,62 @@ namespace Y200.ProjectMultiplayer
     public class PlayerSkinManager : MonoBehaviour
     {
         public Guid SkinID;
-        public byte CharacterType;
+        [Sync] public byte CharacterType;
 
-        [SerializeField] private CoherenceBridge _bridge;
+        [SerializeField] private CoherenceSync _sync;
 
-        [SerializeField] private SkinnedMeshRenderer _jointRenderer;
-        [SerializeField] private SkinnedMeshRenderer _surfaceRenderer;
+        [HideInInspector] public Animator Animator;
 
-        [SerializeField] private Material _c1Joint;
-        [SerializeField] private Material _c1Surface;
-        [SerializeField] private Material _c2Joint;
-        [SerializeField] private Material _c2Surface;        
-        [SerializeField] private Material _c3Joint;
-        [SerializeField] private Material _c3Surface;
+        [SerializeField] private Animator _character1;
+        [SerializeField] private Animator _character2;
+        [SerializeField] private Animator _character3;
 
         private void Awake()
         {
-            GlobalEvent.OnCharacterSelected += ChangeSkin;
+            GlobalEvent.OnCharacterSelected += OnCharacterSelected;
+            GlobalEvent.OnClientJoined += OnClientJoined;
         }
 
         private void OnDestroy()
         {
-            GlobalEvent.OnCharacterSelected -= ChangeSkin;
+            GlobalEvent.OnCharacterSelected -= OnCharacterSelected;
+            GlobalEvent.OnClientJoined -= OnClientJoined;
         }
 
-        public void ChangeSkin(Guid id, byte type = 0)
+        private void OnCharacterSelected(Guid id, byte type)
         {
-            if (SkinID != id) return;
+            if (SkinID == id)
+            {
+                CharacterType = type;
+            }
 
-            CharacterType = type;
+            UpdateCharacter(CharacterType);
+        }
+
+        private void OnClientJoined(Guid id)
+        {
+            UpdateCharacter(CharacterType);
+        }
+
+        private void UpdateCharacter(byte type)
+        {
+            _character1.gameObject.SetActive(false);
+            _character2.gameObject.SetActive(false);
+            _character3.gameObject.SetActive(false);
 
             switch (type)
             {
                 case 0:
-                    _jointRenderer.SetMaterials(new() { _c1Joint });
-                    _surfaceRenderer.SetMaterials(new() { _c1Surface });
+                    Animator = _character1;
+                    _character1.gameObject.SetActive(true);
                     break;
-
                 case 1:
-                    _jointRenderer.SetMaterials(new() { _c2Joint });
-                    _surfaceRenderer.SetMaterials(new() { _c2Surface });
+                    Animator = _character2;
+                    _character2.gameObject.SetActive(true);
                     break;
-
                 case 2:
-                    _jointRenderer.SetMaterials(new() { _c3Joint });
-                    _surfaceRenderer.SetMaterials(new() { _c3Surface });
+                    Animator = _character3;
+                    _character3.gameObject.SetActive(true);
                     break;
             }
         }
