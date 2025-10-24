@@ -17,29 +17,29 @@ namespace Coherence.Generated
     using System.Runtime.InteropServices;
     using UnityEngine;
 
-    public struct _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f : IEntityCommand
+    public struct _b6b91167bdda7fd42ac20fbdb992aeca_217c5f05bfa3471ab86e4f32e0f9dc9b : IEntityCommand
     {
         [StructLayout(LayoutKind.Explicit)]
         public struct Interop
         {
             [FieldOffset(0)]
-            public System.Byte isRunning;
+            public ByteArray completeMessage;
         }
 
-        public static unsafe _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f FromInterop(System.IntPtr data, System.Int32 dataSize) 
+        public static unsafe _b6b91167bdda7fd42ac20fbdb992aeca_217c5f05bfa3471ab86e4f32e0f9dc9b FromInterop(System.IntPtr data, System.Int32 dataSize) 
         {
-            if (dataSize != 1) {
-                throw new System.Exception($"Given data size is not equal to the struct size. ({dataSize} != 1) " +
-                    "for command with ID 8");
+            if (dataSize != 16) {
+                throw new System.Exception($"Given data size is not equal to the struct size. ({dataSize} != 16) " +
+                    "for command with ID 7");
             }
 
-            var orig = new _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f();
+            var orig = new _b6b91167bdda7fd42ac20fbdb992aeca_217c5f05bfa3471ab86e4f32e0f9dc9b();
             var comp = (Interop*)data;
-            orig.isRunning = comp->isRunning != 0;
+            orig.completeMessage = comp->completeMessage.Data != null ? System.Text.Encoding.UTF8.GetString((byte*)comp->completeMessage.Data, (int)comp->completeMessage.Length) : null;
             return orig;
         }
 
-        public System.Boolean isRunning;
+        public System.String completeMessage;
         
         public Entity Entity { get; set; }
         public Coherence.ChannelID ChannelID { get; set; }
@@ -48,7 +48,7 @@ namespace Coherence.Generated
         public uint SenderParticipant { get; set; }
         public ClientID SenderClientID { get; set; }
         public long Frame { get; set; }
-        public uint GetComponentType() => 8;
+        public uint GetComponentType() => 7;
         public bool UsesMeta { get; set; }
 
         public IEntityMessage Clone()
@@ -87,9 +87,9 @@ namespace Coherence.Generated
         public void NullEntityRefs(Entity entity) {
         }
         
-        public _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f(
+        public _b6b91167bdda7fd42ac20fbdb992aeca_217c5f05bfa3471ab86e4f32e0f9dc9b(
             Entity entity,
-            System.Boolean isRunning
+            System.String completeMessage
         )
         {
             Entity = entity;
@@ -101,24 +101,24 @@ namespace Coherence.Generated
             Frame = 0;
             UsesMeta = false;
 
-            this.isRunning = isRunning; 
+            this.completeMessage = completeMessage; 
         }
         
-        public static void Serialize(_b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f commandData, IOutProtocolBitStream bitStream)
+        public static void Serialize(_b6b91167bdda7fd42ac20fbdb992aeca_217c5f05bfa3471ab86e4f32e0f9dc9b commandData, IOutProtocolBitStream bitStream)
         {
-            bitStream.WriteBool(commandData.isRunning);
+            bitStream.WriteShortString(commandData.completeMessage);
         }
         
-        public static _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f Deserialize(IInProtocolBitStream bitStream, Entity entity, MessageTarget target)
+        public static _b6b91167bdda7fd42ac20fbdb992aeca_217c5f05bfa3471ab86e4f32e0f9dc9b Deserialize(IInProtocolBitStream bitStream, Entity entity, MessageTarget target)
         {
-            var dataisRunning = bitStream.ReadBool();
+            var datacompleteMessage = bitStream.ReadShortString();
     
-            return new _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f()
+            return new _b6b91167bdda7fd42ac20fbdb992aeca_217c5f05bfa3471ab86e4f32e0f9dc9b()
             {
                 Entity = entity,
                 Routing = target,
                 Target = target,
-                isRunning = dataisRunning
+                completeMessage = datacompleteMessage
             };   
         }
     }
