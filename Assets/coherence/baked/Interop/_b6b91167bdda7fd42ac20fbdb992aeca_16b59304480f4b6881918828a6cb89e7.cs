@@ -17,29 +17,29 @@ namespace Coherence.Generated
     using System.Runtime.InteropServices;
     using UnityEngine;
 
-    public struct _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f : IEntityCommand
+    public struct _b6b91167bdda7fd42ac20fbdb992aeca_16b59304480f4b6881918828a6cb89e7 : IEntityCommand
     {
         [StructLayout(LayoutKind.Explicit)]
         public struct Interop
         {
             [FieldOffset(0)]
-            public System.Byte isRunning;
+            public System.Byte scene;
         }
 
-        public static unsafe _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f FromInterop(System.IntPtr data, System.Int32 dataSize) 
+        public static unsafe _b6b91167bdda7fd42ac20fbdb992aeca_16b59304480f4b6881918828a6cb89e7 FromInterop(System.IntPtr data, System.Int32 dataSize) 
         {
             if (dataSize != 1) {
                 throw new System.Exception($"Given data size is not equal to the struct size. ({dataSize} != 1) " +
-                    "for command with ID 8");
+                    "for command with ID 7");
             }
 
-            var orig = new _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f();
+            var orig = new _b6b91167bdda7fd42ac20fbdb992aeca_16b59304480f4b6881918828a6cb89e7();
             var comp = (Interop*)data;
-            orig.isRunning = comp->isRunning != 0;
+            orig.scene = comp->scene;
             return orig;
         }
 
-        public System.Boolean isRunning;
+        public System.Byte scene;
         
         public Entity Entity { get; set; }
         public Coherence.ChannelID ChannelID { get; set; }
@@ -48,7 +48,7 @@ namespace Coherence.Generated
         public uint SenderParticipant { get; set; }
         public ClientID SenderClientID { get; set; }
         public long Frame { get; set; }
-        public uint GetComponentType() => 8;
+        public uint GetComponentType() => 7;
         public bool UsesMeta { get; set; }
 
         public IEntityMessage Clone()
@@ -87,9 +87,9 @@ namespace Coherence.Generated
         public void NullEntityRefs(Entity entity) {
         }
         
-        public _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f(
+        public _b6b91167bdda7fd42ac20fbdb992aeca_16b59304480f4b6881918828a6cb89e7(
             Entity entity,
-            System.Boolean isRunning
+            System.Byte scene
         )
         {
             Entity = entity;
@@ -101,24 +101,24 @@ namespace Coherence.Generated
             Frame = 0;
             UsesMeta = false;
 
-            this.isRunning = isRunning; 
+            this.scene = scene; 
         }
         
-        public static void Serialize(_b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f commandData, IOutProtocolBitStream bitStream)
+        public static void Serialize(_b6b91167bdda7fd42ac20fbdb992aeca_16b59304480f4b6881918828a6cb89e7 commandData, IOutProtocolBitStream bitStream)
         {
-            bitStream.WriteBool(commandData.isRunning);
+            bitStream.WriteByte(commandData.scene);
         }
         
-        public static _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f Deserialize(IInProtocolBitStream bitStream, Entity entity, MessageTarget target)
+        public static _b6b91167bdda7fd42ac20fbdb992aeca_16b59304480f4b6881918828a6cb89e7 Deserialize(IInProtocolBitStream bitStream, Entity entity, MessageTarget target)
         {
-            var dataisRunning = bitStream.ReadBool();
+            var datascene = bitStream.ReadByte();
     
-            return new _b6b91167bdda7fd42ac20fbdb992aeca_6bd53c98d39b449598e18d9535d5a04f()
+            return new _b6b91167bdda7fd42ac20fbdb992aeca_16b59304480f4b6881918828a6cb89e7()
             {
                 Entity = entity,
                 Routing = target,
                 Target = target,
-                isRunning = dataisRunning
+                scene = datascene
             };   
         }
     }

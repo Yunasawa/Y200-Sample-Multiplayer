@@ -19,50 +19,50 @@ namespace Coherence.Generated
     using Logger = Coherence.Log.Logger;
     using UnityEngine;
     using Coherence.Toolkit;
-    public struct _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067 : ICoherenceComponentData
+    public struct _b6b91167bdda7fd42ac20fbdb992aeca_2258938803135859408 : ICoherenceComponentData
     {
         [StructLayout(LayoutKind.Explicit)]
         public struct Interop
         {
             [FieldOffset(0)]
-            public ByteArray text;
+            public System.Byte SceneType;
         }
 
         public void ResetFrame(AbsoluteSimulationFrame frame)
         {
-            FieldsMask |= _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067.textMask;
-            textSimulationFrame = frame;
+            FieldsMask |= _b6b91167bdda7fd42ac20fbdb992aeca_2258938803135859408.SceneTypeMask;
+            SceneTypeSimulationFrame = frame;
         }
 
-        public static unsafe _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067 FromInterop(IntPtr data, Int32 dataSize, InteropAbsoluteSimulationFrame* simFrames, Int32 simFramesCount)
+        public static unsafe _b6b91167bdda7fd42ac20fbdb992aeca_2258938803135859408 FromInterop(IntPtr data, Int32 dataSize, InteropAbsoluteSimulationFrame* simFrames, Int32 simFramesCount)
         {
-            if (dataSize != 16) {
-                throw new Exception($"Given data size is not equal to the struct size. ({dataSize} != 16) " +
-                    "for component with ID 21");
+            if (dataSize != 1) {
+                throw new Exception($"Given data size is not equal to the struct size. ({dataSize} != 1) " +
+                    "for component with ID 19");
             }
 
             if (simFramesCount != 0) {
                 throw new Exception($"Given simFrames size is not equal to the expected length. ({simFramesCount} != 0) " +
-                    "for component with ID 21");
+                    "for component with ID 19");
             }
 
-            var orig = new _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067();
+            var orig = new _b6b91167bdda7fd42ac20fbdb992aeca_2258938803135859408();
 
             var comp = (Interop*)data;
 
-            orig.text = comp->text.Data != null ? System.Text.Encoding.UTF8.GetString((byte*)comp->text.Data, (int)comp->text.Length) : null;
+            orig.SceneType = comp->SceneType;
 
             return orig;
         }
 
 
-        public static uint textMask => 0b00000000000000000000000000000001;
-        public AbsoluteSimulationFrame textSimulationFrame;
-        public System.String text;
+        public static uint SceneTypeMask => 0b00000000000000000000000000000001;
+        public AbsoluteSimulationFrame SceneTypeSimulationFrame;
+        public System.Byte SceneType;
 
         public uint FieldsMask { get; set; }
         public uint StoppedMask { get; set; }
-        public uint GetComponentType() => 21;
+        public uint GetComponentType() => 19;
         public int PriorityLevel() => 100;
         public const int order = 0;
         public uint InitialFieldsMask() => 0b00000000000000000000000000000001;
@@ -113,7 +113,7 @@ namespace Coherence.Generated
 
         public ICoherenceComponentData MergeWith(ICoherenceComponentData data)
         {
-            var other = (_b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067)data;
+            var other = (_b6b91167bdda7fd42ac20fbdb992aeca_2258938803135859408)data;
             var otherMask = other.FieldsMask;
 
             FieldsMask |= otherMask;
@@ -121,8 +121,8 @@ namespace Coherence.Generated
 
             if ((otherMask & 0x01) != 0)
             {
-                this.textSimulationFrame = other.textSimulationFrame;
-                this.text = other.text;
+                this.SceneTypeSimulationFrame = other.SceneTypeSimulationFrame;
+                this.SceneType = other.SceneType;
             }
 
             otherMask >>= 1;
@@ -136,7 +136,7 @@ namespace Coherence.Generated
             throw new System.NotSupportedException($"{nameof(DiffWith)} is not supported in Unity");
         }
 
-        public static uint Serialize(_b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067 data, bool isRefSimFrameValid, AbsoluteSimulationFrame referenceSimulationFrame, IOutProtocolBitStream bitStream, Logger logger)
+        public static uint Serialize(_b6b91167bdda7fd42ac20fbdb992aeca_2258938803135859408 data, bool isRefSimFrameValid, AbsoluteSimulationFrame referenceSimulationFrame, IOutProtocolBitStream bitStream, Logger logger)
         {
             if (bitStream.WriteMask(data.StoppedMask != 0))
             {
@@ -147,15 +147,15 @@ namespace Coherence.Generated
 
             if (bitStream.WriteMask((mask & 0x01) != 0))
             {
-                var fieldValue = data.text;
-                bitStream.WriteShortString(fieldValue);
+                var fieldValue = data.SceneType;
+                bitStream.WriteByte(fieldValue);
             }
             mask >>= 1;
 
             return mask;
         }
 
-        public static _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067 Deserialize(AbsoluteSimulationFrame referenceSimulationFrame, InProtocolBitStream bitStream)
+        public static _b6b91167bdda7fd42ac20fbdb992aeca_2258938803135859408 Deserialize(AbsoluteSimulationFrame referenceSimulationFrame, InProtocolBitStream bitStream)
         {
             var stoppedMask = (uint)0;
             if (bitStream.ReadMask())
@@ -163,12 +163,12 @@ namespace Coherence.Generated
                 stoppedMask = bitStream.ReadMaskBits(1);
             }
 
-            var val = new _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067();
+            var val = new _b6b91167bdda7fd42ac20fbdb992aeca_2258938803135859408();
             if (bitStream.ReadMask())
             {
 
-                val.text = bitStream.ReadShortString();
-                val.FieldsMask |= _b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067.textMask;
+                val.SceneType = bitStream.ReadByte();
+                val.FieldsMask |= _b6b91167bdda7fd42ac20fbdb992aeca_2258938803135859408.SceneTypeMask;
             }
 
             val.StoppedMask = stoppedMask;
@@ -179,8 +179,8 @@ namespace Coherence.Generated
 
         public override string ToString()
         {
-            return $"_b6b91167bdda7fd42ac20fbdb992aeca_5313132270030033067(" +
-                $" text: { this.text }" +
+            return $"_b6b91167bdda7fd42ac20fbdb992aeca_2258938803135859408(" +
+                $" SceneType: { this.SceneType }" +
                 $" Mask: { System.Convert.ToString(FieldsMask, 2).PadLeft(1, '0') }, " +
                 $"Stopped: { System.Convert.ToString(StoppedMask, 2).PadLeft(1, '0') })";
         }

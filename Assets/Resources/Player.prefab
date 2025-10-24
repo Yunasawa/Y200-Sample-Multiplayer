@@ -2972,6 +2972,7 @@ GameObject:
   - component: {fileID: 710361541161439438}
   - component: {fileID: 1232619433093473600}
   - component: {fileID: 4561164196374390466}
+  - component: {fileID: 2258938803135859408}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3556,6 +3557,8 @@ MonoBehaviour:
       lodStepsActive: 1
     - component: {fileID: 7176686623682458805}
       lodStepsActive: 1
+    - component: {fileID: 2258938803135859408}
+      lodStepsActive: 1
     GeneratesArchetypeDefinition: 0
   interpolationLocation: 1
   RigidbodyUpdateMode: 0
@@ -3580,6 +3583,9 @@ MonoBehaviour:
   - rid: 8141519101406740704
   - rid: 8141519101406740747
   - rid: 8141519101406740749
+  - rid: 8141519112897560646
+  - rid: 8141519114534649928
+  - rid: 8141519114534649930
   scenePrefabInstanceUUID: 
   coherenceUUID: 
   assetVersion: 
@@ -3588,6 +3594,7 @@ MonoBehaviour:
   - rid: 8141519096648564849
   - rid: 8141519096648564918
   - rid: 8141519101406740702
+  - rid: 8141519112897560645
   floatingOriginMode: 0
   floatingOriginParentedMode: 1
   references:
@@ -3967,6 +3974,139 @@ MonoBehaviour:
         oldName: 
         oldParameterAssemblyTypes: []
         parameterHash: -7454095
+    - rid: 8141519112897560645
+      type: {class: DisableBehaviourComponentAction, ns: Coherence.Toolkit.ComponentActions, asm: Coherence.Toolkit}
+      data:
+        component: {fileID: 2258938803135859408}
+    - rid: 8141519112897560646
+      type: {class: ByteBinding, ns: Coherence.Toolkit.Bindings.ValueBindings, asm: Coherence.Toolkit}
+      data:
+        descriptor:
+          rid: 8141519112897560647
+        routing: 0
+        syncMode: 0
+        isPredicted: 0
+        predictionMode: 0
+        guid: 0080a6e9c4884a3092bd091af0879b98
+        archetypeData:
+          type: 16
+          minRange: 0
+          maxRange: 0
+          sampleRate: 20
+          floatCompression: 0
+          fields:
+          - type: 16
+            bits: 8
+            precision: 0
+            floatCompression: 0
+        unityComponent: {fileID: 2258938803135859408}
+        coherenceSync: {fileID: 8599938119732484236}
+        interpolationSettings: {fileID: 0}
+    - rid: 8141519112897560647
+      type: {class: Descriptor, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        name: SceneType
+        monoAssemblyType: System.Byte, mscorlib
+        required: 0
+        enforcesLODingWhenFieldsOverriden: 1
+        valueSyncCallbackName: 
+        memberType: 4
+        parameterAssemblyTypes: []
+        ownerType:
+          assemblyQualifiedName: Y200.ProjectMultiplayer.PlayerSceneManager, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        defaultSyncMode: 0
+        CustomData:
+          rid: -2
+        bindingType:
+          assemblyQualifiedName: Coherence.Toolkit.Bindings.ValueBindings.ByteBinding,
+            Coherence.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        oldName: 
+        oldParameterAssemblyTypes: []
+    - rid: 8141519114534649928
+      type: {class: CommandBinding, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        descriptor:
+          rid: 8141519114534649929
+        routing: 1
+        syncMode: 0
+        isPredicted: 0
+        predictionMode: 0
+        guid: a202db9439ec408e8c17770e581736b1
+        archetypeData:
+          type: 0
+          minRange: 0
+          maxRange: 0
+          sampleRate: 0
+          floatCompression: 0
+          fields: []
+        unityComponent: {fileID: 2258938803135859408}
+        coherenceSync: {fileID: 8599938119732484236}
+        interpolationSettings: {fileID: 0}
+    - rid: 8141519114534649929
+      type: {class: Descriptor, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        name: OnSceneChanged
+        monoAssemblyType: 
+        required: 0
+        enforcesLODingWhenFieldsOverriden: 0
+        valueSyncCallbackName: 
+        memberType: 8
+        parameterAssemblyTypes:
+        - System.Byte, mscorlib
+        ownerType:
+          assemblyQualifiedName: Y200.ProjectMultiplayer.PlayerSceneManager, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        defaultSyncMode: 0
+        CustomData:
+          rid: -2
+        bindingType:
+          assemblyQualifiedName: Coherence.Toolkit.Bindings.CommandBinding, Coherence.Toolkit,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        oldName: 
+        oldParameterAssemblyTypes: []
+    - rid: 8141519114534649930
+      type: {class: CommandBinding, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        descriptor:
+          rid: 8141519114534649931
+        routing: 1
+        syncMode: 0
+        isPredicted: 0
+        predictionMode: 0
+        guid: 16b59304480f4b6881918828a6cb89e7
+        archetypeData:
+          type: 0
+          minRange: 0
+          maxRange: 0
+          sampleRate: 0
+          floatCompression: 0
+          fields: []
+        unityComponent: {fileID: 2258938803135859408}
+        coherenceSync: {fileID: 8599938119732484236}
+        interpolationSettings: {fileID: 0}
+    - rid: 8141519114534649931
+      type: {class: Descriptor, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        name: ChangeScene
+        monoAssemblyType: 
+        required: 0
+        enforcesLODingWhenFieldsOverriden: 0
+        valueSyncCallbackName: 
+        memberType: 8
+        parameterAssemblyTypes:
+        - System.Byte, mscorlib
+        ownerType:
+          assemblyQualifiedName: Y200.ProjectMultiplayer.PlayerSceneManager, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        defaultSyncMode: 0
+        CustomData:
+          rid: -2
+        bindingType:
+          assemblyQualifiedName: Coherence.Toolkit.Bindings.CommandBinding, Coherence.Toolkit,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        oldName: 
+        oldParameterAssemblyTypes: []
 --- !u!114 &710361541161439438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4022,6 +4162,22 @@ MonoBehaviour:
   _character1: {fileID: 2164096153098260643}
   _character2: {fileID: 6249753844118996474}
   _character3: {fileID: 5597853690678057385}
+--- !u!114 &2258938803135859408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3424336282950329348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d47f5f7bafdd74fa450a495f172018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneType: 0
+  _sync: {fileID: 0}
+  _scene1LoadButton: {fileID: 0}
+  _scene2LoadButton: {fileID: 0}
 --- !u!1 &3428732517360696913
 GameObject:
   m_ObjectHideFlags: 0

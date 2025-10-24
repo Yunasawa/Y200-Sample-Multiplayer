@@ -8,15 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cores/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/Samples/coherence/1.8.0/Sample Scenes/1_CharacterMovement.unity
-    guid: 437257d50494e46a1aab8c2b2285c31e
-  - enabled: 0
-    path: Assets/Samples/coherence/1.8.0/Rooms UI/Rooms UI.unity
-    guid: 3103ce63cfa9d6240a57f4aa0e653025
-  - enabled: 0
-    path: Assets/Samples/coherence/1.8.0/Sample Scenes/7_PlayerSpawner.unity
-    guid: 44e835c997e961c45bbd8b9ac1d5d9fb
+  - enabled: 1
+    path: Assets/Cores/Scenes/Scene 1.unity
+    guid: 2cc86ebbc2f22b34596c83efdd0d0a64
+  - enabled: 1
+    path: Assets/Cores/Scenes/Scene 2.unity
+    guid: e73f7e514b382de48885f6247d126736
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     io.coherence.simulator.build.options: {fileID: 11400000, guid: 51091c9cca8966449973bdfdc74405c0, type: 2}
